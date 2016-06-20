@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+	font size: 16px;
+	font-family: Arial, Helvetica, Sans-serif;
+	width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  
+
+}
+
+.row {
+  width: 100%;
+}
+
+div > div {
+	border: 1px solid black;
+	padding: 5px;*/
+}
+
+
+div > div > div {
+	/*position:absolute;
+	top: 0px;
+	right: 0px;*/
+	font-size: 125%;
+	text-align: center;
+
+	width: 100px;
+	float:right;
+}
+
+h1 {
+	font size: 175%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.food {
+	text-align: center;
+	font size: 125%;
+}
+
+.red {background-color: red;}
+.blue {background-color: blue;} 
+.green {background-color: green;}
+
+@media (min-width: 1200px) {.a, .b, .c {
+	float: left;
+	border: 1px solid black;
+   
+
+}
+	.a {width: 33.33%; background-color: grey; height: 420px;}
+	.b {width: 33.33%; background-color: grey; height: 420px}
+	.c {width: 33.33%; background-color: grey; height: 420px}
+
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {.a, .b, .c {
+	float: left;
+	border: 1px solid black;
+    
+
+}
+	.a {width: 50%;background-color: grey;height: 270px}
+	.b {width: 50%;background-color: grey; height: 270px;}
+	.c {background-color: grey;}
+
+}
+
+@media (max-width: 949px) {.a, .b, .c {
+	float: left;
+	border: 1px solid black;
+    
+
+}
+	.a {background-color: grey;}
+	.b {background-color: grey;}
+	.c {background-color: grey;}
+
+}
+
+
+
+
